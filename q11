@@ -1,0 +1,10 @@
+let n = 10;
+let a = 0, b = 1;
+
+console.log(a);  // Imprime o primeiro número
+for (let i = 1; i < n; i++) {
+  console.log(b);
+  let temp = b;
+  b = a + b;
+  a = temp;
+}
