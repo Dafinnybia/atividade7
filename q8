@@ -1,0 +1,12 @@
+let numeros = [];
+let numero;
+
+do {
+  numero = prompt("Digite um número (digite 0 para parar):");
+  numero = parseInt(numero);
+  if (numero !== 0) {
+    numeros.push(numero);
+  }
+} while (numero !== 0);
+
+console.log("Números digitados:", numeros);
