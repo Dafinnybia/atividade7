@@ -1,0 +1,9 @@
+let multiplicacao = 1;
+
+for (let i = 1; i <= 5; i++) {
+  let numero = prompt(`Digite o ${i}º número:`); 
+  numero = parseInt(numero);
+  multiplicacao *= numero;
+}
+
+console.log("Resultado da multiplicação acumulada:", multiplicacao);
